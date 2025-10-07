@@ -133,7 +133,7 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363417542294659@newsletter',
+            newsletterJid: '120363421104812135@newsletter',
             newsletterName: 'cypherX space',
             serverMessageId: -1
         }
