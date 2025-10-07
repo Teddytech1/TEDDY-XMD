@@ -55,6 +55,59 @@ Easily deploy to Heroku with the button below:
 </div>
 
 ---
+## 📡 PANEL DEPLOYMENT OPTIONS
+
+> Get the latest TEDDY-XMD bot zip file for panel-based deployment:
+
+<div align="left">
+  <a href="https://github.com/Teddytech1/TEDDY-XMD/archive/refs/heads/main.zip" target="_blank">
+    <img alt="Download Panel ZIP" src="https://img.shields.io/badge/View-panel%20Codes-FF0000?style=for-the-badge&logo=bot&logoColor=white"/>
+  </a>
+</div>
+
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" width="100%" />
+</p>
+
+> ✅ Deploy to any panel service of your choice.
+
+---
+
+### 🛠️ Recommended Hosting Panels
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://bot-hosting.net/?aff=1097457675723341836" target="_blank">
+          <img src="https://img.shields.io/badge/BotHosting-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a1a"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://dashboard.katabump.com/auth/login#203630" target="_blank">
+          <img src="https://img.shields.io/badge/Katabump-FF5722?style=for-the-badge&logo=codeberg&logoColor=white&labelColor=1a1a1a"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <a href="https://dash.hmvhostings.com/register?ref=GKTSTyFY" target="_blank">
+          <img src="https://img.shields.io/badge/HMVHosting-00ACC1?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=1a1a1a"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+> 💡 Ensure your panel has **at least 2GB RAM**  
+> 🔧 _Working on TEDDY-XMD compatibility with free-tier panel hosts_
+
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/>
+</p>
+
+---
+
 
 ## 🌐 Join The Community
 
