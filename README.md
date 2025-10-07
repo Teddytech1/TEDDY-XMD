@@ -128,9 +128,8 @@ Easily deploy to Heroku with the button below:
 - ✅ Group + DM features
 - ✅ Public/Private mode
 - ✅ Secure cloud-hosting compatible
-- ✅ Developer maintained: FredieTech
+- ✅ Developer maintained: Teddy
 
----
 
 ## 🛠️ HOW TO USE
 
@@ -141,19 +140,8 @@ Easily deploy to Heroku with the button below:
 # STEP 4: Deploy and input environment variables
 # STEP 5: Start the bot and enjoy powerful features
 
-
-
-## 🌐 Join The Community
-
-<p align="center">
-  <a href="[https://chat.whatsapp.com/KnL0Ft6gvHDGP2lH3oN5Z5?mode=ems_copy_t]">
-    <img src="https://img.shields.io/badge/JOIN_WHATSAPP_GROUP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="250">
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n">
-    <img src="https://img.shields.io/badge/WHATSAPP_CHANNEL-075E54?style=for-the-badge&logo=whatsapp&logoColor=white" width="250">
-  </a>
-</p>
-
 ---
+
+
 
 
