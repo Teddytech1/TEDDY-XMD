@@ -107,6 +107,40 @@ Easily deploy to Heroku with the button below:
 </p>
 
 ---
+## KOYEB
+[![Koyeb](https://raw.githubusercontent.com/Teddytech1/TEDDY-XMD/main/media/koyeb.svg)](https://app.koyeb.com/services/deploy?type=git&repository=Teddytech1/TEDDY-XMD) <details><summary>Step-by-step</summary><ul><li>Click above to open deploy panel</li><li>Authorize GitHub and select repo</li><li>Set environment variables</li><li>Deploy and wait for logs to show successful build</li></ul></details>
+
+## RAILWAY
+[![Railway](https://raw.githubusercontent.com/Teddytech1/TEDDY-XMD/main/media/railway.svg)](https://railway.app/new) <details><summary>Step-by-step</summary><ul><li>Open link</li><li>Click **Deploy from GitHub repo**</li><li>Select this repo</li><li>Go to variables tab → add SESSION_ID, AUTOBIO etc.</li><li>Deploy</li></ul></details>
+
+## RENDER
+[![Render](https://raw.githubusercontent.com/Teddytech1/TEDDY-XMD/main/media/render.svg)](https://dashboard.render.com/web/new) <details><summary>Step-by-step</summary><ul><li>Open Render dashboard</li><li>Click **New Web Service**</li><li>Connect your GitHub</li><li>Choose this repo</li><li>Add build/start command & ENV vars</li><li>Click **Create Web Service**</li></ul></details>
+
+## NETLIFY
+[![Netlify](https://raw.githubusercontent.com/Teddytech1/TEDDY-XMD/main/media/netlify.svg)](https://app.netlify.com/) <details><summary>Step-by-step</summary><ul><li>Use for frontend session site only</li><li>Drag/drop or link repo with index.html</li><li>Publish to host session UI</li></ul></details>
+
+---
+
+## 🤖 BOT FEATURES
+
+- ✅ Anti-call, anti-delete, short session
+- ✅ Auto status read, auto message react
+- ✅ Group + DM features
+- ✅ Public/Private mode
+- ✅ Secure cloud-hosting compatible
+- ✅ Developer maintained: FredieTech
+
+---
+
+## 🛠️ HOW TO USE
+
+```bash
+# STEP 1: Fork the repo
+# STEP 2: Get your session ID (use link above)
+# STEP 3: Choose a host from table above
+# STEP 4: Deploy and input environment variables
+# STEP 5: Start the bot and enjoy powerful features
+
 
 
 ## 🌐 Join The Community
@@ -122,10 +156,4 @@ Easily deploy to Heroku with the button below:
 
 ---
 
-<h3 align="center" style="color: #FF6347; animation: pulse 1.5s infinite;">🔥OFFICIAL RELEASE v4.0 🔥</h3>
 
-## ⚠️ Important Notice
-```diff
-- REDISTRIBUTION STRICTLY PROHIBITED
-+ OFFICIAL SUPPORT ONLY FOR ORIGINAL VERSION
-! VIOLATORS WILL BE BLACKLISTED
