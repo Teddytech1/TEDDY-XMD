@@ -131,6 +131,19 @@ Easily deploy to Heroku with the button below:
 
 ---
 
+<details>
+<summary>NOTICE!!! (TAP TO READ)</summary>
+
+- For Vps/Panel Deployment You must download the zip from panel sections or from below link else your youtube downloaders wont work on panel.
+
+<a href="https://github.com/mauricegift/gifted-md/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Panel Zip File" width="150"></a>
+
+- You can add your custom premium/unlimited api key on config.js/.env on app.json(heroku) when deploying to avoid any inconveniences caused by free api key limit.
+  
+</details>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 ## 🤖 BOT FEATURES
 
 - ✅ Anti-call, anti-delete, short session
