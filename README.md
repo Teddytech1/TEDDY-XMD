@@ -55,6 +55,27 @@ Easily deploy to Heroku with the button below:
 </div>
 
 ---
+
+**(C) RENDER DEPLOYMENT**
+<details>
+<summary>TAP TO OPEN</summary>
+<a href="https://dashboard.render.com/signup"><img src="https://img.shields.io/badge/RENDER%20SIGNUP-green" alt="Render" width="150"></a>
+
+<a href="https://youtu.be/TVu8CQPPliM?feature=shared"><img src="https://img.shields.io/badge/WATCH%20TUTORIAL-red" alt="Render Tutorial" width="150"></a>
+</details>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+**(D) KOYEB DEPLOYMENT**
+<details>
+<summary>TAP TO OPEN</summary>
+<a href="https://app.koyeb.com/auth/signup"><img src="https://img.shields.io/badge/KOYEB%20SIGNUP-purple" alt="Koyeb" width="150"></a>
+
+<a href="https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2Fmauricegift%2Fgifted-md&branch=main&name=gifted-md&builder=dockerfile&env%5BAUTO_BLOCK=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BMODE%5D=private&env=%5BAUTO_READ%5D%3Dfalse&env%5BAUTO_READ_STATUS%5D=true"><img src="https://img.shields.io/badge/DEPLOY%20NOW-black" alt="Koyeb Tutorial" width="150"></a>
+</details>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 ## 📡 PANEL DEPLOYMENT OPTIONS
 
 > Get the latest TEDDY-XMD bot zip file for panel-based deployment:
