@@ -143,7 +143,7 @@ Easily deploy to Heroku with the button below:
 
 - For Vps/Panel Deployment You must download the zip from panel sections or from below link else your youtube downloaders wont work on panel.
 
-<a href="https://github.com/mauricegift/gifted-md/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Panel Zip File" width="150"></a>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD%20ZIP-yellow" alt="Panel Zip File" width="150"></a>
 
 - You can add your custom premium/unlimited api key on config.js/.env on app.json(heroku) when deploying to avoid any inconveniences caused by free api key limit.
   
