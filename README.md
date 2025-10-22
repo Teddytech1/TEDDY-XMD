@@ -49,6 +49,7 @@ You need a session to connect your bot. Choose your preferred method:
 
 ### 🔹 Step 3: Deploy with One Click
 Easily deploy to Heroku with the button below:
+
 **(A) HEROKU DEPLOYMENT**
 
 <details>
@@ -62,7 +63,7 @@ Easily deploy to Heroku with the button below:
 
 ---
 
-**(C) RENDER DEPLOYMENT**
+**(B) RENDER DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://dashboard.render.com/signup"><img src="https://img.shields.io/badge/RENDER%20SIGNUP-green" alt="Render" width="150"></a>
@@ -72,7 +73,7 @@ Easily deploy to Heroku with the button below:
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**(D) KOYEB DEPLOYMENT**
+**(C) KOYEB DEPLOYMENT**
 <details>
 <summary>TAP TO OPEN</summary>
 <a href="https://app.koyeb.com/auth/signup"><img src="https://img.shields.io/badge/KOYEB%20SIGNUP-purple" alt="Koyeb" width="150"></a>
