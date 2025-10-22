@@ -49,10 +49,16 @@ You need a session to connect your bot. Choose your preferred method:
 
 ### 🔹 Step 3: Deploy with One Click
 Easily deploy to Heroku with the button below:
+**(A) HEROKU DEPLOYMENT**
 
-[![Deploy](https://img.shields.io/badge/DEPLOY_TO_HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white)]([https://verify-teddyxmd.vercel.app/)
+<details>
+<summary>TAP TO OPEN</summary>
+<a href="https://signup.heroku.com/login"><img src="https://img.shields.io/badge/HEROKU%20SIGNUP-white" alt="Pairing Code" width="150"></a>
+  
+<a href="https://session.giftedtech.my.id/auth"><img src="https://img.shields.io/badge/DEPLOY%20NOW-red" alt="Deploy Gifted" width="150"></a>
+</details>
 
-</div>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ---
 
