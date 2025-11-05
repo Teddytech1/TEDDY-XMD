@@ -28,7 +28,7 @@ gmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your TEDDY-XMd Bot is Already on the Latest Version!");
+            return reply("✅ Your Gifted-Md Bot is Already on the Latest Version!");
         }
 
         const authorName = commitData.commit.author.name;
@@ -36,17 +36,17 @@ gmd({
         const commitDate = new Date(commitData.commit.author.date).toLocaleString();
         const commitMessage = commitData.commit.message;
 
-        await reply(`🔄 Updating Teddy-Xmd Bot...\n\n*Commit Details:*\n👤 Author: ${authorName} (${authorEmail})\n📅 Date: ${commitDate}\n💬 Message: ${commitMessage}`);
+        await reply(`🔄 Updating Gifted-Md Bot...\n\n*Commit Details:*\n👤 Author: ${authorName} (${authorEmail})\n📅 Date: ${commitDate}\n💬 Message: ${commitMessage}`);
 
-        const zipPath = path.join(__dirname, '..', 'TEDDY-XMD-main.zip');
-        const { data: zipData } = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/archive/main.zip", { responseType: "arraybuffer" });
+        const zipPath = path.join(__dirname, '..', 'gifted-md-main.zip');
+        const { data: zipData } = await axios.get("https://github.com/mauricegift/gifted-md/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         const extractPath = path.join(__dirname, '..', 'latest');
         const zip = new AdmZip(zipPath);
         zip.extractAllTo(extractPath, true);
 
-        const sourcePath = path.join(extractPath, 'TEDDY-XMD-main');
+        const sourcePath = path.join(extractPath, 'gifted-md-main');
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
         await setCommitHash(latestCommitHash);

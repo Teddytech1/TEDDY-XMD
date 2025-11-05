@@ -1,5 +1,5 @@
 const { gmd, GiftedApkDl } = require("../teddy"),
-       GIFTED_DLS = require('gifted-dls'),
+       GIFTED_DLS = require('tech-dls'),
        giftedDls = new GIFTED_DLS();
 
 gmd({
