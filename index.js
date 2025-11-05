@@ -8,7 +8,7 @@ const {
     downloadAndSaveMediaMessage, 
     DisconnectReason, 
     getContentType,
-    fetchLatestBaileysVersion, 
+    fetchLatestWaWebVersion, 
     useMultiFileAuthState, 
     makeCacheableSignalKeyStore,
     jidDecode 
@@ -118,7 +118,7 @@ const RECONNECT_DELAY = 5000;
 
 async function startGifted() {
     try {
-        const { version, isLatest } = await fetchLatestBaileysVersion();
+        const { version, isLatest } = await fetchLatestWaWebVersion();
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         
         if (store) {
@@ -328,7 +328,7 @@ Gifted.ev.on("messages.upsert", async ({ messages }) => {
 
             if (autoReplyStatus === "true") {
                 if (mek.key.fromMe) return;
-                const customMessage = statusReplyText || '✅ Status Viewed By Teddy-XMd';
+                const customMessage = statusReplyText || '✅ Status Viewed By Gifted-Md';
                 await Gifted.sendMessage(
                     fromJid,
                     { text: customMessage },
@@ -342,7 +342,7 @@ Gifted.ev.on("messages.upsert", async ({ messages }) => {
 });
 
          try {
-            const pluginsPath = path.join(__dirname, "tech");
+            const pluginsPath = path.join(__dirname, "gifted");
             fs.readdirSync(pluginsPath).forEach((fileName) => {
                 if (path.extname(fileName).toLowerCase() === ".js") {
                     try {
@@ -418,7 +418,7 @@ if (groupInfo && groupInfo.participants) {
 
             const repliedMessage = ms.message?.extendedTextMessage?.contextInfo?.quotedMessage || null;
             const type = getContentType(ms.message);
-            const pushName = ms.pushName || 'Teddy-xmd User';
+            const pushName = ms.pushName || 'Gifted-Md User';
             const quoted = 
                 type == 'extendedTextMessage' && 
                 ms.message.extendedTextMessage.contextInfo != null 
@@ -449,7 +449,7 @@ if (groupInfo && groupInfo.participants) {
                 : repliedMessage 
                     ? repliedMessageAuthor 
                     : '';
-const devNumbers = ('254799963583,254769787515,254747933583')
+const devNumbers = ('254715206562,254114018035,254728782591,254799916673,254762016957,254113174209')
     .split(',')
     .map(num => num.trim().replace(/\D/g, '')) 
     .filter(num => num.length > 5); 
@@ -796,7 +796,7 @@ Gifted.getLidFromJid = async (jid) => {
                 if (reason === DisconnectReason.badSession) {
                     console.log("Bad session file, delete it and scan again");
                     try {
-                        await fs.remove(__dirname + "/gift/session");
+                        await fs.remove(__dirname + "/teddy/session");
                     } catch (e) {
                         console.error("Failed to remove session:", e);
                     }
@@ -813,7 +813,7 @@ Gifted.getLidFromJid = async (jid) => {
                 } else if (reason === DisconnectReason.loggedOut) {
                     console.log("Device logged out, delete session and scan again");
                     try {
-                        await fs.remove(__dirname + "/gift/session");
+                        await fs.remove(__dirname + "/teddy/session");
                     } catch (e) {
                         console.error("Failed to remove session:", e);
                     }

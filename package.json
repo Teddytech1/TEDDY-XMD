@@ -1,7 +1,7 @@
 {
-  "name": "teddy-xmd",
+  "name": "TEDDY-XMD",
   "version": "5.0.0",
-  "description": "Teddy-xmd, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
+  "description": "Teddy xmd, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
   "main": "./index.js",
   "type": "commonjs",
   "engines": {
@@ -14,22 +14,23 @@
     "restart": "pm2 restart teddyxmd"
   },
   "keywords": [
-    "teddy-xmd",
+    "gifted-md",
     "whatsapp-bot",
-    "teddytech"
+    "giftedtech"
   ],
   "author": "TeddyTech",
   "license": "MIT",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.0",
     "gifted-baileys": "^2.0.0",
+    "gifted-btns": "^1.0.0",
     "axios": "^1.2.5",
     "acrcloud": "*",
     "adm-zip": "*",
     "google-tts-api": "*",
     "body-parser": "latest",
-    "buffer": "^6.0.3",
-    "dotenv": "^16.3.1",
+    "buffer": "*",
+    "dotenv": "*",
     "express": "^4.19.2",
     "file-type": "17.1.6",
     "ffmpeg-static": "*",
