@@ -309,7 +309,7 @@ function GiftedChatBot(Gifted, chatBot, chatBotMode, createContext, createContex
                             waveform: [1000, 0, 1000, 0, 1000, 0, 1000],
                             ...createContext2(jid, {
                                title: `${botName} 𝐀𝐔𝐃𝐈𝐎-𝐂𝐇𝐀𝐓 𝐁𝐎𝐓`,
-                               body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 Teddy 𝐀𝐩𝐢𝐬'
+                               body: '𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐆𝐢𝐟𝐭𝐞𝐝 𝐀𝐩𝐢𝐬'
                             })
                         }, { quoted: msg });
                     }

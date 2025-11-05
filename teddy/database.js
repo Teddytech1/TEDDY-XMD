@@ -6,10 +6,10 @@ class DatabaseManager {
 
     static getInstance() {
         if (!DatabaseManager.instance) {
-            const DATABASE_URL = config.DATABASE_URL || './gift/database.db';
+            const DATABASE_URL = config.DATABASE_URL || './teddy/database.db';
 
             DatabaseManager.instance =
-                DATABASE_URL === './gift/database.db'
+                DATABASE_URL === './teddy/database.db'
                     ? new Sequelize({
                             dialect: 'sqlite',
                             storage: DATABASE_URL,
