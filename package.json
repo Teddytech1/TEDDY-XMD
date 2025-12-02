@@ -1,0 +1,68 @@
+{
+  "name": "gifted-md",
+  "version": "5.0.0",
+  "description": "Gifted-Md, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
+  "main": "./index.js",
+  "type": "commonjs",
+  "engines": {
+    "npm": "10.x",
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "pm2 start index.js --name giftedmd",
+    "stop": "pm2 stop giftedmd",
+    "restart": "pm2 restart giftedmd"
+  },
+  "keywords": [
+    "gifted-md",
+    "whatsapp-bot",
+    "giftedtech"
+  ],
+  "author": "GiftedTech",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "gifted-baileys": "2.0.0",
+    "gifted-btns": "^1.0.0",
+    "axios": "^1.2.5",
+    "acrcloud": "*",
+    "adm-zip": "*",
+    "google-tts-api": "*",
+    "body-parser": "latest",
+    "buffer": "*",
+    "dotenv": "*",
+    "express": "^4.19.2",
+    "file-type": "17.1.6",
+    "ffmpeg-static": "*",
+    "fluent-ffmpeg": "*",
+    "@hapi/boom": "*",
+    "@ffmpeg-installer/ffmpeg": "*",
+    "stream": "*",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "jimp": "0.16.1",
+    "sharp": "^0.32.6",
+    "gifted-dls": "*",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "path": "latest",
+    "pg": "*",
+    "pino": "^7.0.5",
+    "pm2": "latest",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "*",
+    "sqlite3": "*",
+    "util": "*",
+    "wa-sticker-formatter": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricegift/gifted-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauricegift/gifted-md/issues"
+  },
+  "homepage": "https://github.com/mauricegift/gifted-md#readme"
+}
