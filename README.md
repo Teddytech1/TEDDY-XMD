@@ -19,18 +19,10 @@
 
 </h1>
 
-<p align="center"><i>“POWERFUL WHATSAPP BOT.”</i></p>
-
 <p align="center">
   <b>Spawned by <code>TEDDY-XMD</code>, by Teddy Tech Hub </b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-🟢_v18+-black?style=for-the-badge&logo=node.js" />
-  <img src="https://img.shields.io/badge/Discord.js-💜_v14-black?style=for-the-badge&logo=discord" />
-  <img src="https://img.shields.io/badge/MEISER_Enhanced-🔮_Aura-black?style=for-the-badge&logo=powerbi" />
-  <img src="https://img.shields.io/badge/Rage%20Fueled-🔥_No_Mercy-black?style=for-the-badge" />
-</p>
 
 ---
 
