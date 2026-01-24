@@ -1,9 +1,9 @@
 {
-  "name":"𝐀𝐋𝐈𝐓𝐀-𝐗𝐌𝐃",
-  "description":"Best whatsapp bot💥 developed by ᴅɪᴀɴᴀ ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ",
+  "name":"𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
+  "description":"Best whatsapp bot💥 developed by Teddy Tech ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ",
   "keywords":["timnasa","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/2cydsg.jpeg",
-    "repository": "https://github.com/QUEEN-DIANA/ALITA-XMD",
+  "logo":"https://files.catbox.moe/p02qjd.jpg",
+    "repository": "https://github.com/Teddytech1/TEDDY-XMD",
   "succes_url": "/",
   "stack": "container",
 
@@ -66,7 +66,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED",
+      "value": "💲YOUR STATUS VIEWED BY 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -101,7 +101,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "ALITA-XMD",
+      "value": "Teddy ",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -110,8 +110,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '18492785095')",
-      "value": "18099065877",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254799963583')",
+      "value": "254799963583",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
