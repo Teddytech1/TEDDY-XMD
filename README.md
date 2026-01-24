@@ -18,12 +18,6 @@
 <i><sub>by Teddy Tech Hub•</sub></i>
 
 </h1>
-
-<p align="center">
-  <b>Spawned by <code>TEDDY-XMD</code>, by Teddy Tech Hub </b>
-</p>
-
-
 ---
 
 ## ⚔️ Quick Links
