@@ -23,10 +23,10 @@ zokou({
 
     // --- GITHUB SETTINGS ---
     // Change 'YOUR_USERNAME/YOUR_REPO' to your actual GitHub path
-    const ownerRepo = "Teddytech1/TEDDY-XMD"; 
-    const channelJid = "120363421104812135@newsletter";
+    const ownerRepo = "aryan-bot/ARYAN-TECH"; 
+    const channelJid = "";
     const audioUrl = "https://files.catbox.moe/lqx6sp.mp3";
-    const ownerNumber = "254799963583";
+    const ownerNumber = "255637518095";
 
     try {
         repondre("⌛ *Fetching secure system data from GitHub...*");
@@ -37,7 +37,7 @@ zokou({
 
         let menuMsg = `
 ╭─────────────━┈⊷•
-│ 🤖 *𝙱𝙾𝚃:* TEDDY-XMD 
+│ 🤖 *𝙱𝙾𝚃:* ARYAN-TECH 
 │ 👤 *𝚄𝚂𝙴𝚁:* ${nomAuteurMessage}
 │ 📂 *𝚂𝚃𝙰𝚃𝚄𝚂:* Owner Verified
 ╰─────────────━┈⊷•
@@ -53,14 +53,14 @@ _Active command files and last update time:_
                 const lastUpdate = commitRes.data[0].commit.committer.date;
                 
                 const date = moment(lastUpdate).tz("Africa/Nairobi").format("DD/MM/YYYY");
-                const time = moment(lastUpdate).tz("Africa/Nairobi").format("HH:mm:ss");
+                const time = moment(lastUpdate).tz("Africa/dar es salaam").format("HH:mm:ss");
 
                 menuMsg += `\n📄 *File:* \`\`\`${file.name}\`\`\``;
                 menuMsg += `\n📅 *Uploaded:* ${date} | ⌚ ${time}\n`;
             }
         }
 
-        menuMsg += `\n*『 𝚂𝚈𝚂𝚃𝙴𝙼 𝙰𝙳𝙼𝙸𝙽 』*\n• *Owner:* wa.me/${ownerNumber}`;
+        menuMsg += `\n*『 𝚂𝚈𝚂𝚃𝙴𝙼 𝙰𝙳𝙼𝙸𝙽 』*\n• *Owner:* ://wa.me /qr/${ownerNumber}`;
 
         // 1. Send Menu Image
         await zk.sendMessage(dest, {
@@ -71,7 +71,7 @@ _Active command files and last update time:_
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: channelJid,
-                    newsletterName: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝙰𝙳𝙼𝙸𝙽",
+                    newsletterName: "ARYAN-TECH 𝙰𝙳𝙼𝙸𝙽",
                     serverMessageId: 1
                 }
             }
@@ -85,10 +85,10 @@ _Active command files and last update time:_
             waveform: [0, 50, 100, 50, 100, 50, 0],
             contextInfo: {
                 externalAdReply: {
-                    title: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝚂𝙴𝙲𝚄𝚁𝙴 𝙼𝙴𝙽𝚄",
+                    title: "ARYAN-TECH 𝚂𝙴𝙲𝚄𝚁𝙴 𝙼𝙴𝙽𝚄",
                     body: "Authorized Access Only",
-                    thumbnailUrl: "https://files.catbox.moe/p02qjd.jpg",
-                    sourceUrl: `https://wa.me/${ownerNumber}`
+                    thumbnailUrl: "https://files.catbox.moe/kz1unr.jpg",
+                    sourceUrl: `https:://wa.me /qr/${ownerNumber}`
                 }
             }
         }, { quoted: ms });
