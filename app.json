@@ -86,7 +86,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "ALITA-XMD",
+      "value": "TEDDY-XMD",
       "required": true
     },
     "HEROKU_APP_NAME": {
