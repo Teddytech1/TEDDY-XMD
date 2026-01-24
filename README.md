@@ -1,6 +1,6 @@
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=TEDDY;XMD+Bot;Made+By+ARYAN-TECH+Hub" alt="Typing SVG" style="font-size: 50px;"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=ARYAN;TECH+Bot;Made+By+ARYAN-TECH+Hub" alt="Typing SVG" style="font-size: 50px;"/>
   </a> 
 </div> 
 <p align="center">
@@ -12,7 +12,7 @@
 ⚡🐺<br>
 
 <span style="font-size: 42px;">
-  <b>TEDDY-XMD</b>
+  <b>ARYAN-TECH</b>
 </span><br>
 
 <i><sub>by Aryan tech Hub•</sub></i>
