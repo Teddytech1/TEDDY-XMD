@@ -1,9 +1,9 @@
 {
-  "name":"𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
+  "name":"ARYAN-TECH",
   "description":"Best whatsapp bot💥 developed by Teddy Tech ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ",
-  "keywords":["timnasa","node","baileys","whatsapp"],
+  "keywords":["ARYAN","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/p02qjd.jpg",
-    "repository": "https://github.com/Teddytech1/TEDDY-XMD",
+    "repository": "https://github.com/Aryan-tech/ARYAN-TECH",
   "succes_url": "/",
   "stack": "container",
 
@@ -66,7 +66,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED BY 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
+      "value": "💲YOUR STATUS VIEWED BY ARYAN-TECH",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -86,7 +86,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "TEDDY-XMD",
+      "value": "ARYAN-TECH",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -101,7 +101,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Teddy ",
+      "value": "aryan ",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -111,7 +111,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254799963583')",
-      "value": "254799963583",
+      "value": "255637518095",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
