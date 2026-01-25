@@ -11,7 +11,7 @@ zokou({ nomCom: "vv", aliases: ["send", "keep"], categorie: "General" }, async (
     return repondre('Please reply to a View Once (VV) message or any media to save it.');
   }
 
-  const channelJid = "120363336396621021@newsletter";
+  const channelJid = "120363421104812135@newsletter";
 
   try {
     let msg = {};
