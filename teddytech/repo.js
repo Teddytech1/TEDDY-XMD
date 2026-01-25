@@ -8,9 +8,9 @@ zokou({ nomCom: "repo", categorie: "General", reaction: "❄" }, async (dest, zk
   const { ms, repondre, auteurMessage } = commandeOptions;
   
   // GitHub API link
-  const repoApi = "https://api.github.com/repos/Teddytech1/TEDDY-XMD";
-  const img = 'https://files.catbox.moe/p02qjd.jpg';
-  const channelJid = "120363421104812135@newsletter";
+  const repoApi = "https://api.github.com/repos/Aryan-tech/ARYAN-TECH";
+  const img = 'https://files.catbox.moe/kz1unr.jpg';
+  const channelJid = "";
 
   try {
     const response = await axios.get(repoApi);
@@ -23,15 +23,15 @@ zokou({ nomCom: "repo", categorie: "General", reaction: "❄" }, async (dest, zk
       const lastUpdate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       // gitdata now starts with a mention
-      const gitdata = `Hello @${auteurMessage.split('@')[0]}, *𝗜 𝗮𝗺* *𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗*\n  
+      const gitdata = `Hello @${auteurMessage.split('@')[0]}, *𝗜 𝗮𝗺* *ARYAN-TECH*\n  
 ╭─────────────━┈⊷•
-│🎲│ *𝗣𝗮𝗶𝗿 𝗰𝗼𝗱𝗲:* 
+│🎲│ *𝗣𝗮𝗶𝗿 𝗰𝗼𝗱𝗲:* aryan
 │🪔│ *𝗥𝗲𝗽𝗼:* ${data.html_url}
 │🌟│ *𝗦𝘁𝗮𝗿𝘀:* ${stars}
 │🪡│ *𝗙𝗼𝗿𝗸𝘀:* ${forks}
 │🎯│ *𝗥𝗲𝗹𝗲𝗮𝘀𝚎 𝗗𝗮𝘁𝗲:* ${releaseDate}
 │✅│ *𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗼𝗻:* ${lastUpdate}
-│💫│ *𝗢𝘄𝗻𝗲𝗿:*  Teddy
+│💫│ *𝗢𝘄𝗻𝗲𝗿:*  ARYAN-TECH 
 ╰─────────────━┈⊷•⁠⁠⁠⁠
 `;
 
@@ -48,7 +48,7 @@ zokou({ nomCom: "repo", categorie: "General", reaction: "❄" }, async (dest, zk
             serverMessageId: 1
           },
           externalAdReply: {
-            title: "TEDDY - 𝚇𝙼𝙳 𝚂𝚈𝚂𝚃𝙴𝙼",
+            title: "ARYAN - 𝚇𝙼𝙳 𝚂𝚈𝚂𝚃𝙴𝙼",
             body: "Bot Repository & Deployment",
             thumbnailUrl: img,
             sourceUrl: data.html_url,
