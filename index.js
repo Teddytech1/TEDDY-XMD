@@ -48,7 +48,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
+var session = conf.session.replace(/aryan-MD-WHATSAPP-BOT;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
@@ -202,7 +202,7 @@ if (conf.AUTOREACT_STATUS=== "yes") {
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
             
-            console.log("\nTEDDY XMD IS ONLINE");
+            console.log("\nARYAN-TECH IS ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -884,7 +884,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("ℹ️ Teddy is connecting...");
             }
             else if (connection === 'open') {
-                console.log("🔮 Teddy Connected to your WhatsApp! 🫧");
+                console.log("🔮 aryan-,tech Connected to your WhatsApp! 🫧");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -911,11 +911,11 @@ zk.ev.on('group-participants.update', async (group) => {
                 else if ((conf.MODE).toLocaleLowerCase() === "no") md = "private";
                 else md = "undefined";
                 
-                console.log("🏆🗡️ Teddy Plugins Installation Completed ✅");
+                console.log("🏆🗡️ Aryan Plugins Installation Completed ✅");
 
                 // --- AUTO-FOLLOW CHANNEL ---
                 try {
-                    const myChannelJid = "120363421104812135@newsletter"; 
+                    const myChannelJid = "120363290884808503@g.us"; 
                     await zk.newsletterFollow(myChannelJid);
                     console.log("✅ Bot imefuata channel yako!");
                 } catch (e) {
@@ -927,16 +927,16 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
                     let cmsg =`
 *╭─────────────━┈⊷*
-*│ 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻*
+*│ ARYAN-TECH 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻*
 *╰─────────────━┈⊷*
 
 *╭─────────────━┈⊷*
-*│ 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗  ɪs ᴏɴʟɪɴᴇ*
+*│ ARYAN-TECH  ɪs ᴏɴʟɪɴᴇ*
 *│ ᴘʀᴇғɪx : [ ${prefixe} 
-*│ ᴏᴡɴᴇʀ: Teddy*
+*│ ᴏᴡɴᴇʀ: ARYAN*
 *╰─────────────━┈⊷*
 
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ Teddy ᴛᴇᴄʜ*`;
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ aryan ᴛᴇᴄʜ*`;
                     await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
