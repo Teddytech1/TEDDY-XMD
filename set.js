@@ -10,7 +10,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 module.exports = { session: process.env.SESSION_ID || 'ARYAN-TECH~',
     PREFIXE: process.env.PREFIX || ".",
     GITHUB : process.env.GITHUB|| 'https://files.catbox.moe/bse21s.jpg',
-    OWNER_NAME : process.env.OWNER_NAME || "ARYAN",
+    OWNER_NAME : process.env.OWNER_NAME || "ARYAN-TECH",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "255637518095", 
               
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
