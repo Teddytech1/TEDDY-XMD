@@ -121,7 +121,7 @@ zokou({
 
         // Send Audio (PTT/Voice Note)
         await zk.sendMessage(dest, {
-            audio: { url: muzikiUrl },
+            audio: { url: "https://files.catbox.moe/h8pbcy.m4a" },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: {
