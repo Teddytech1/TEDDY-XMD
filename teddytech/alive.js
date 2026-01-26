@@ -74,7 +74,7 @@ _Type .menu to view all commands_`;
 
         // 6. Send Music/Audio
         await zk.sendMessage(dest, {
-            audio: { url: "https://files.catbox.moe/lqx6sp.mp3" },
+            audio: { url: "https://files.catbox.moe/h8pbcy.m4a" },
             mimetype: 'audio/mp4',
             ptt: false 
         }, { quoted: ms });
