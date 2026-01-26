@@ -27,7 +27,7 @@ const toFancyLowercaseFont = (text) => {
 zokou({ 
     nomCom: "menu2", 
     categorie: "Menu", 
-    reaction: "🇹🇿", 
+    reaction: "🇰🇪", 
     nomFichier: __filename 
 }, async (dest, zk, commandeOptions) => {
     const { repondre, prefixe, nomAuteurMessage } = commandeOptions;
