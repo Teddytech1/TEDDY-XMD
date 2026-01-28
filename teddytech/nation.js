@@ -92,7 +92,7 @@ async function executeTag(dest, zk, opts, key) {
 
     if (filtered.length === 0) return repondre(`No numbers for ${key.toUpperCase()} found here.`);
 
-    let msg = `╭─────────────━┈⊷\n│ 𝙰𝙻𝙸𝚃𝙰 - 𝚇𝙼𝙳 ${key.toUpperCase()} ${nation.flag}\n╰─────────────━┈⊷\n\n`;
+    let msg = `╭─────────────━┈⊷\n│ TEDDY-XMD ${key.toUpperCase()} ${nation.flag}\n╰─────────────━┈⊷\n\n`;
     filtered.forEach(m => { msg += `${nation.flag} @${m.id.split("@")[0]}\n`; });
 
     await zk.sendMessage(dest, { text: msg, mentions: filtered.map(i => i.id) }, { quoted: ms });
