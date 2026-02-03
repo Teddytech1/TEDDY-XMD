@@ -87,7 +87,7 @@ Easily connect to your WhatsApp account by pair code.
 1. [Sign Up on Replit](https://repl.it) if you haven’t already.
 2. Click the button below to deploy using Replit:
    <br>
-   <a href='https://repl.it/github/Teddytech1/TEDDY-XMD'target="_blank">
+   <a href='https://repl.it/github/Teddytech1/TEDDY-XMD' target="_blank">
       <img alt='Deploy In Replit' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=replit&logoColor=white'/>
    </a>
 
