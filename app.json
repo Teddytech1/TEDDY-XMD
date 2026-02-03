@@ -1,5 +1,5 @@
 {
-  "name": "mega-md",
+  "name": "TEDDY-XMD",
   "description": " Whatsapp automation",
   "keywords": [
     "whatsapp Bot"
@@ -10,7 +10,7 @@
     "MONGO_URL": {
       "description": "Put if you have mongodb database url",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://kibetwycliffe093_db_user:d4m5nPYEWChQK2U1@cluster0.qzur4la.mongodb.net/?appName=Cluster0"
     },
     "MYSQL_URL": {
       "description": "Put if you have mysql database url",
