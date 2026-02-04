@@ -1,5 +1,5 @@
 {
-  "name": "TEDDY-XMD",
+  "name": "mega-md",
   "description": " Whatsapp automation",
   "keywords": [
     "whatsapp Bot"
@@ -24,12 +24,12 @@
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": false,
+      "required": true,
       "value": ""
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "SESSION_ID": {
