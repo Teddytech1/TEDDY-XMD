@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TEDDY TECH</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      background: url('https://files.catbox.moe/yx9w43.jpg') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: auto;
+      text-align: center;
+      margin: 0;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-top: 20px;
+      animation: rotate 10s linear infinite;
+    }
+
+    .typing-text {
+      font-size: 3em;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #fff;
+      background: linear-gradient(270deg, #ff416c, #ff4b2b, #00c9ff, #92fe9d);
+      background-size: 800% 800%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rotate-text 6s ease infinite;
+      cursor: pointer;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin: 10px;
+      animation: rotate-text 8s linear infinite;
+      background: linear-gradient(270deg, #ff416c, #ff4b2b, #00c9ff, #92fe9d);
+      background-size: 800% 800%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .project-btn {
+      padding: 15px 25px;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1em;
+      cursor: pointer;
+      background: linear-gradient(90deg, #ff8a00, #e52e71, #9b00ff);
+      color: white;
+      animation: colorShift 4s infinite;
+      transition: transform 0.3s;
+    }
+
+    .project-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-btn, .control-btn {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .whatsapp-btn {
+      background: #25D366;
+    }
+
+    .control-btn {
+      background: #444;
+      margin: 5px;
+    }
+
+    .volume-slider {
+      width: 300px;
+      height: 20px;
+      margin-top: 20px;
+      -webkit-appearance: none;
+      background: linear-gradient(270deg, #ff416c, #ff4b2b, #00c9ff, #92fe9d);
+      background-size: 300% 300%;
+      border-radius: 10px;
+      animation: colorShiftFast 2s linear infinite;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .volume-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 30px;
+      width: 30px;
+      background: white;
+      border-radius: 50%;
+      border: 2px solid #000;
+      cursor: pointer;
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+    .volume-slider::-moz-range-thumb {
+      height: 30px;
+      width: 30px;
+      background: white;
+      border-radius: 50%;
+      border: 2px solid #000;
+      cursor: pointer;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes rotate-text {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes colorShift {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    @keyframes colorShiftFast {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @media (max-width: 600px) {
+      .typing-text {
+        font-size: 1.8em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      .project-btn {
+        padding: 10px 15px;
+        font-size: 1em;
+      }
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      font-size: 1em;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://files.catbox.moe/yx9w43.jpg" alt="Teddy profile picture" class="profile-img" onclick="speak('Teddyprofile image')">
+  <h1 class="typing-text" onclick="speak('Teddy Tech Support')"></h1>
+  <h2 onclick="speak('Powered by Teddy Tech')">Teddy Tech </h2>
+
+  <div class="projects">
+    <button class="project-btn" onclick="window.open('https://teddy-tech-portfolio.vercel.app/', '_blank'); speak('My portfolio')">Portfolio</button>
+    <button class="project-btn" onclick="window.open('https://deploy-teddy-xmd.onrender.com/', '_blank'); speak('Deployment site one')">Deployment Site One</button>
+    <button class="project-btn" onclick="window.open('https://teddytech-pairing.onrender.com/', '_blank'); speak('Teddy xmd pairing')">Teddy xmd pairing</button>
+    <button class="project-btn" onclick="window.open('https://deployment-site-tan.vercel.app', '_blank'); speak('Deployment site two')">Deployment Site Two</button>
+    <button class="project-btn" onclick="window.open('https://url-shortner-eta-lac.vercel.app/', '_blank'); speak('Url shorter')">URL shortener</button>
+    <button class="project-btn" onclick="window.open('https://teddytech-services.vercel.app/', '_blank'); speak('My services')">My services</button>
+  </div>
+
+  <button class="whatsapp-btn" onclick="window.open('https://whatsapp.com/channel/0029Vb4WwGo4CrffIZhlnv1Y'); speak('Join WhatsApp Channel')">
+    Join WhatsApp Channel
+  </button>
+
+  <input type="range" min="0" max="1" step="0.01" value="1" class="volume-slider" id="volumeSlider" onchange="setVolume(this.value)">
+
+  <button class="control-btn" onclick="togglePlay()">Pause/Resume</button>
+
+  <audio id="bg-music" autoplay loop>
+    <source src="https://files.catbox.moe/r93e2e.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function speak(text) {
+      const msg = new SpeechSynthesisUtterance(text);
+      msg.lang = 'en-US';
+      window.speechSynthesis.speak(msg);
+    }
+
+    const text = "Teddy Tech";
+    const typingElement = document.querySelector(".typing-text");
+    let index = 0;
+    function typeEffect() {
+      if (index < text.length) {
+        typingElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeEffect, 150);
+      }
+    }
+    typeEffect();
+
+    const music = document.getElementById("bg-music");
+
+    function togglePlay() {
+      if (music.paused) {
+        music.play();
+      } else {
+        music.pause();
+      }
+    }
+
+    function setVolume(value) {
+      music.volume = parseFloat(value);
+      speak(`Volume ${Math.round(value * 100)} percent`);
+    }
+  </script>
+
+  <footer>
+    © 2025 Teddytech— Thank you!
+  </footer>
+</body>
+</html>
