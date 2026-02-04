@@ -10,7 +10,7 @@
     "MONGO_URL": {
       "description": "Put if you have mongodb database url",
       "required": false,
-      "value": "mongodb+srv://kibetwycliffe093_db_user:d4m5nPYEWChQK2U1@cluster0.qzur4la.mongodb.net/?appName=Cluster0"
+      "value": ""
     },
     "MYSQL_URL": {
       "description": "Put if you have mysql database url",
@@ -24,12 +24,12 @@
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
+      "required": false,
       "value": ""
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "SESSION_ID": {
