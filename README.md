@@ -28,27 +28,6 @@ Easily connect to your WhatsApp account by pair code.
 ---
 
 
-### Step 3: Set Environment Variables.
-
-
-**Note:** Set these environment variables in .env file 
-
-| Variable | Description 
-|---|---| 
-| REMOVEBG_KEY | API key for www.remove.bg |
-| SESSION_ID | Session id you got via pairing |
-
-
-**Use One Of Following ( Optional But Highly Recommended )** 
-
-| Variable | Description 
-|---|---| 
-| MONGO_URL | mongo db connection uri |
-| POSTGRES_URL | postgres:// postgres connection url |
-| MYSQL_URL | mysql://mysql connection url |
-
-----
-
 ### Step 4: Deploy Now
 
 **Option A: Deploy In Heroku**
@@ -206,27 +185,4 @@ If you like this project, please give it a [⭐️ star on GitHub](https://githu
 ## Important Warning
 
 **Note:** This bot is created for educational purposes only. This is NOT an official WhatsApp bot. Using this bot may lead to your WhatsApp account being banned. Use it at your own risk. The developers will not be responsible for any consequences or account bans that may occur while using this bot.
-
-## Legal Notice
-
-- This project is not affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries.
-- This is an independent and unofficial software. Use at your own risk.
-- Do not spam people with this bot.
-- Do not use this bot to send bulk messages or for illegal purposes.
-- The developers assume no liability and are not responsible for any misuse or damage caused by this program.
-
-## Copyright Notice
-
-Copyright (c) 2026 Teddy Xmd .All rights reserved.
-
-This project contains code from various open source projects:
-- Baileys (MIT License)
-- Other libraries as listed in package.json
-
-<h2> IMPORTANT NOTICE </h2>
-
-- Not For Sale
-- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
-- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
-- Have A Good Day
 
