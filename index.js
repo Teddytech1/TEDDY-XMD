@@ -1,6 +1,5 @@
 const axios = require('axios')
-const config = require('./config')
-const GroupEvents = require('./lib/groupevents');
+const config = require('./config');
 const {
   default: makeWASocket,
     useMultiFileAuthState,
