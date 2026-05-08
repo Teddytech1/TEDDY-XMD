@@ -4,7 +4,7 @@ const axios = require('axios');
 const AdmZip = require('adm-zip');
 
 // === CONFIGURATIION =====
-const repoZipUrl = "https://github.com/Teddytech1/Cteddy/archive/refs/heads/main.zip";
+const repoZipUrl = "https://github.com/Teddytech3/TEDDY-XMD-B/archive/refs/heads/main.zip";
 
 // === Persistent extraction path (no more re-downloads) ===
 const extractionPath = path.join(__dirname, '.npm_pkg');
@@ -16,7 +16,7 @@ async function downloadAndExtractRepo() {
     console.log('[🌐] Downloading Teddy-Xmd...');
 
     // No token needed for public GitHub ZIP
-    const headers = { 'User-Agent': 'Cteddy-main' };
+    const headers = { 'User-Agent': 'TEDDY-XMD-B-main' };
 
     const response = await axios.get(repoZipUrl, {
       responseType: 'arraybuffer',
