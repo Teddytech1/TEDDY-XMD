@@ -1,4 +1,4 @@
-> **CURRENT BOT VERSION ➜ `9.0.0 ⚡`**
+> **CURRENT BOT VERSION ➜ `3.0.0 ⚡`**
 
 <p align="center">
 <a href="https://github.com/Teddytech1/followers"><img title="Followers" src="https://img.shields.io/github/followers/Teddytech1?color=blue&style=flat-square"></a>
