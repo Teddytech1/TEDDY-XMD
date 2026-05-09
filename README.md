@@ -29,10 +29,10 @@
 
 ### 🔐 2. GET SESSION ID
 
-`If you don’t have your SESSION_ID, click below and enter your number with country code (e.g. 92300xxxxxx):`
+`If you don’t have your SESSION_ID, click below and enter your number with country code (e.g. 2547xxxxxx):`
 
 > **PAIR CODE SESSION ID**
-<a href='https://stark-pair-nine.vercel.app/' target="_blank">
+<a href='https://teddytech.vercel.app/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 
