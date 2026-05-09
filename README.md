@@ -1,138 +1,122 @@
+> **CURRENT BOT VERSION ➜ `9.0.0 ⚡`**
+
+<p align="center">
+<a href="https://github.com/Teddytech1/followers"><img title="Followers" src="https://img.shields.io/github/followers/Teddytech1?color=blue&style=flat-square"></a>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Teddytech1/TEDDY-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Teddytech1/TEDDY-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/Teddytech1/TEDDY-XMD?style=flat-square&color=green"></a>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+THANKS+FOR+USING+TEDDY-XMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TEDDY+TECH" alt="TEDDY-XMD Typing SVG" /></a>
 
 ---
 
-## Steps to Deploy
+<a><img src='https://files.catbox.moe/w3k9sq.jpg'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-### Step 1: Fork the Repository
+***
 
-Click the button below to fork the TEDDY XMD repository to your GitHub account:
+## 🪄 SETUP GUIDE
 
-<div align="center">
-  <a href="https://github.com/Teddytech1/TEDDY-XMD/fork">
-    <img src="https://img.shields.io/badge/Fork-Repo-orange?style=for-the-badge" alt="Fork the repository"/>
-  </a>
-</div>
+### 🧩 1. FORK THIS REPOSITORY
 
----
+`FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
-### Step 2: Get Pair Code
-
-Easily connect to your WhatsApp account by pair code.
-
-<div align="center">
-  <a href="https://pair-teddy-xmd-bot-ru7s.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/SESSION-ID-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
-  </a>
-</div>
+<a href="https://github.com/Teddytech1/TEDDY-XMD/fork"><img title="TEDDY-XMD" src="https://img.shields.io/badge/FORK-TEDDY%20XMD%20BOT?color=indigo&style=for-the-badge&logo=stackshare"></a>
 
 ---
 
+### 🔐 2. GET SESSION ID
 
-### Step 4: Deploy Now
+`If you don’t have your SESSION_ID, click below and enter your number with country code (e.g. 92300xxxxxx):`
 
-**Option A: Deploy In Heroku**
-1. [Sign Up on Heroku](https://signup.heroku.com/) if you haven’t already.
-2. Click the button below to deploy directly In Heroku:
-   <br>
-   <a href='https://heroku.com/deploy?template=https://github.com/Teddytech1/TEDDY-XMD/Bypass' target="_blank">
-      <img alt='Deploy In Heroku' src='https://img.shields.io/badge/-DEPLOY%20NOW-purple?style=for-the-badge&logo=heroku&logoColor=white'/>
-   </a>
-
-**Option B: Deploy In Koyeb**
-1. [Sign Up on Koyeb](https://app.koyeb.com/auth/signup). if you haven’t already.
-2. Click the button below to deploy using Koyeb:
-   <br>
-   <a href='https://app.koyeb.com' target="_blank">
-      <img alt='Deploy In Koyeb' src='https://img.shields.io/badge/-DEPLOY-red?style=for-the-badge&logo=koyeb&logoColor=white'/>
-   </a>
-
-**Option C: Deploy In Railway**
-1. [Sign Up on Railway](https://railway.app/login) if you haven’t already.
-2. Click the button below to deploy using Railway:
-   <br>
-   <a href='https://railway.app/new' target="_blank">
-      <img alt='Deploy In Railway' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=railway&logoColor=white'/>
-   </a>
-
-**Option D: Deploy In Render**
-1. [Sign Up on Render](https://dashboard.render.com/register) if you haven’t already.
-2. Click the button below to deploy using Render:
-   <br>
-   <a href='https://dashboard.render.com' target="_blank">
-      <img alt='Deploy In Render' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
-   </a>
-   
-**Option E: Deploy In Replit**
-1. [Sign Up on Replit](https://repl.it) if you haven’t already.
-2. Click the button below to deploy using Replit:
-   <br>
-   <a href='https://repl.it/github/Teddytech1/TEDDY-XMD' target="_blank">
-      <img alt='Deploy In Replit' src='https://img.shields.io/badge/-DEPLOY-orange?style=for-the-badge&logo=replit&logoColor=white'/>
-   </a>
-
-**Option F: Deploy In Sevalla**
-1. [Sign Up on Sevalla](https://sevalla.com/signup/) if you haven’t already.
-2. Click the button below to deploy using Sevalla:
-   <br>
-   <a href='https://sevalla.com' target="_blank">
-      <img alt='Deploy In Sevalla' src='https://img.shields.io/badge/-DEPLOY%20NOW-blue?style=for-the-badge&logo=sevalla&logoColor=white'/>
-   </a>
-   
-**Option G: Deploy In Fly.io**
-1. [Sign Up on Fly.io](https://fly.io/app/sign-up) if you haven’t already.
-2. Click the button below to deploy using Fly.io:
-   <br>
-   <a href='https://fly.io' target="_blank">
-      <img alt='Deploy In Sevalla' src='https://img.shields.io/badge/-DEPLOY%20NOW-magenta?style=for-the-badge&logo=flyio&logoColor=white'/>
-   </a>
-
-**Option H: Deploy In Panel**
-1. First You Have to Sign up on discord using web or app then click below.
-2. [Sign Up On Panel](https://optiklink.com/auth) if you don’t have Already.
-3. Click the button below to deploy using Panel:
-   <br>
-   <a href='https://control.optiklink.com/' target="_blank">
-      <img alt='Deploy In Panel' src='https://img.shields.io/badge/-DEPLOY-green?style=for-the-badge&logo=Cloudflare&logoColor=white'/>
-   </a>
+> **PAIR CODE SESSION ID**
+<a href='https://stark-pair-nine.vercel.app/' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
 
 ---
 
-### Join Us
+## ⚙️ TEDDY-XMD DEPLOYMENT OPTIONS
 
-<div align="center">
-  <a href="https://t.me/Xdbot1">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Dev Telegram"/>
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n">
-    <img src="https://img.shields.io/badge/Join%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp"/>
-  </a>
-</div>
+---
+### 🚀 1. HEROKU DEPLOY
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Teddytech1/TEDDY-XMD">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Heroku Deploy"/>
+</a>
+
+### ☁️ 2. KOYEB DEPLOY
+<a href="https://app.koyeb.com/services/deploy?type=git&repository=Teddytech1/TEDDY-XMD" target="_blank">
+  <img src="https://img.shields.io/badge/-Koyeb%20Deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" alt="Koyeb Deploy" width="150" height="28"/>
+</a>
+
+### 🍃 3. REPLIT DEPLOY
+<a href="https://replit.com/~" target="_blank">
+  <img src="https://img.shields.io/badge/DEPLOY%20REPLIT-green?style=for-the-badge&logo=Replit" alt="Replit Deploy" width="150" height="28"/>
+</a>
+
+### 🧩 4. PANEL DEPLOY
+<a href="https://github.com/Teddytech1/TEDDY-XMD_panel_file/archive/refs/heads/main.zip" target="_blank">
+  <img src="https://img.shields.io/badge/Panel%20Zip-000?style=for-the-badge&logo=botpress&logoColor=white" alt="Panel Zip" width="150" height="28"/>
+</a>
+
+### 🎐 5. TALKDROVE FREE
+<a href="https://talkdrove.com/share-bot/11" target="_blank">
+  <img src="https://img.shields.io/badge/-TalkDrove%20Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white" alt="TalkDrove Deploy" width="150" height="28"/>
+</a>
+
+### 🚅 6. RAILWAY
+<a href="https://railway.app/new" target="_blank">
+  <img src="https://img.shields.io/badge/-Railway%20Deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Deploy" width="150" height="28"/>
+</a>
+
+### ⚡ 7. RENDER DEPLOY
+<a href="https://dashboard.render.com/web/new" target="_blank">
+  <img src="https://img.shields.io/badge/-Render%20Deploy-000?style=for-the-badge&logo=render&logoColor=white" alt="Render Deploy" width="150" height="28"/>
+</a>
+
+### 🤖 8. HUGGING DEPLOY
+<a href="https://huggingface.co/spaces/Teddytech1/TEDDY-XMD" target="_blank">
+  <img src="https://img.shields.io/badge/-Hugging%20Face%20Deploy-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face Deploy" width="150" height="28"/>
+</a>
+
+## 👑 PROJECT OWNER
+
+**Hi friends!** Need help? Contact me via WhatsApp 👇  
+
+<a href='https://wa.me/+923437393822?text=*ʜɪ+ᴛᴇᴅʏ+ɪ+ɴᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+TEDDY-XMD+ʀᴇᴘᴏ!!*' target="_blank">
+<img alt='WhatsApp' src='https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/>
+</a>
 
 ---
 
-## Features
+## 🪀 SUPPORT CHANNEL & GROUP
 
-- **Tag all group members** with the `.tagall` command
-- **Automated Tasks** with the `.autoreact, .autostatus, .autoread` commands
-- **Admin restricted usage** (Only group admins can use certain commands)
-- **Owner restricted usage** (Only owner/sudo can use certain commands)
-- **Games** like Tic-Tac-Toe for interactive group engagement
-- **Social Media** downloaders for popular social media webistes and apps
-- **Text Makers** with `.ephoto`
-- **Text-to-Speech** with `.tts`
-- **Sticker creation** with `.sticker`
-- **Logo creations** with `.ephoto`
-- **Anti-link detection** for group safety
-- **Warn and manage group members** with admin control
-- **And much more .....**
+[![WhatsApp Channel](https://img.shields.io/badge/JOIN-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h)
+
+[![WhatsApp Group](https://img.shields.io/badge/JOIN-WHATSAPP%20GROUP-25D366?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EP0hLj5Pjx89s9VXbzZ3iV?mode=ac_t)
 
 ---
 
-## About
+## <h2 align="left">⚠️ REMINDER </h2>
+<p style="text-align: center; font-size: 1.2em;">
 
-TEDDY-XMD WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
-
-It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
+- **DISCLAIMER:** THIS BOT IS NOT AFFILIATED WITH `WhatsApp Inc.`. USE IT AT YOUR OWN RISK.
+- MISUSING THE BOT MAY RESULT IN YOUR `WhatsApp` ACCOUNT BEING BANNED. NOTE THAT YOU CAN ONLY UNBAN YOUR ACCOUNT ONCE.
+- I AM NOT RESPONSIBLE FOR ANY BANS OR MISUSE OF THE BOT. PLEASE KEEP THIS WARNING IN MIND BEFORE PROCEEDING.
 
 ---
+
+<h2 align="left">ℹ️ NOTICE</h2>
+<p style="text-align: center; font-size: 1.2em;">
+  NOT FOR SALE - IF ANY PLUGIN'S CODE IS OBFUSCATED, YOU DO NOT HAVE PERMISSION TO EDIT IT IN ANY FORM. PLEASE REMEMBER TO GIVE CREDIT IF YOU ARE USING OR RE-UPLOADING MY PLUGINS/FILES. WISHING YOU A WONDERFUL DAY AHEAD!</p>
+  
+---
+
+THANKS FOR SUPPORTING ✅
+
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
