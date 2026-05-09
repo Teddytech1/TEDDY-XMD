@@ -1,37 +1,27 @@
 {
-  "name": "teddy-xmd",
+  "name": "TEDDY-XMD",
   "description": "TEDDY-XMD — A Powerful WhatsApp Bot built with Node.js.",
   "repository": "https://github.com/Teddytech1/TEDDY-XMD",
-  "logo": "https://files.catbox.moe/j35jos.jpg",
-  "keywords": ["whatsapp", "bot", "baileys", "node", "teddy-xmd"],
+  "logo": "https://files.catbox.moe/13nyhx.jpg",
+  "keywords": ["whatsapp", "bot", "baileys", "node"],
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Your WhatsApp session ID. Teddy:~<base64>",
+      "description": "Your WhatsApp session ID. TEDDY-XMD:~:~<base64>",
       "required": true
-    },
-    "PREFIX": {
-      "description": "Bot command prefix",
-      "value": ".",
-      "required": true
-    },
-    "BOT_NAME": {
-      "description": "Bot display name",
-      "value": "TEDDY-XMD",
-      "required": false
     }
   },
   "formation": {
-    "worker": {
+    "web": {
       "quantity": 1,
       "size": "basic"
     }
   },
   "addons": [
-    { "plan": "heroku-postgresql:hobby-dev" }
+    { "plan": "heroku-postgresql" }
   ],
   "scripts": {
-    "postdeploy": "npm install --legacy-peer-deps"
+    "start": "node index.js"
   },
   "buildpacks": [
     { "url": "heroku/nodejs" },
