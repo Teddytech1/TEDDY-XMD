@@ -12,7 +12,7 @@
 
 ---
 
-<a><img src='https://files.catbox.moe/w3k9sq.jpg'/></a>
+<a><img src='https://files.catbox.moe/13nyhx.jpg'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ***
@@ -61,22 +61,18 @@
   <img src="https://img.shields.io/badge/Panel%20Zip-000?style=for-the-badge&logo=botpress&logoColor=white" alt="Panel Zip" width="150" height="28"/>
 </a>
 
-### 🎐 5. TALKDROVE FREE
-<a href="https://talkdrove.com/share-bot/11" target="_blank">
-  <img src="https://img.shields.io/badge/-TalkDrove%20Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white" alt="TalkDrove Deploy" width="150" height="28"/>
-</a>
 
-### 🚅 6. RAILWAY
+### 🚅 5. RAILWAY
 <a href="https://railway.app/new" target="_blank">
   <img src="https://img.shields.io/badge/-Railway%20Deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Deploy" width="150" height="28"/>
 </a>
 
-### ⚡ 7. RENDER DEPLOY
+### ⚡ 6. RENDER DEPLOY
 <a href="https://dashboard.render.com/web/new" target="_blank">
   <img src="https://img.shields.io/badge/-Render%20Deploy-000?style=for-the-badge&logo=render&logoColor=white" alt="Render Deploy" width="150" height="28"/>
 </a>
 
-### 🤖 8. HUGGING DEPLOY
+### 🤖 7. HUGGING DEPLOY
 <a href="https://huggingface.co/spaces/Teddytech1/TEDDY-XMD" target="_blank">
   <img src="https://img.shields.io/badge/-Hugging%20Face%20Deploy-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face Deploy" width="150" height="28"/>
 </a>
@@ -85,7 +81,7 @@
 
 **Hi friends!** Need help? Contact me via WhatsApp 👇  
 
-<a href='https://wa.me/+923437393822?text=*ʜɪ+ᴛᴇᴅʏ+ɪ+ɴᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+TEDDY-XMD+ʀᴇᴘᴏ!!*' target="_blank">
+<a href='https://wa.me/+254799963583?text=*ʜɪ+ᴛᴇᴅʏ+ɪ+ɴᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+TEDDY-XMD+ʀᴇᴘᴏ!!*' target="_blank">
 <img alt='WhatsApp' src='https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>
 
