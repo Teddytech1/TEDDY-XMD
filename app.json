@@ -1,0 +1,67 @@
+{
+  "name": "TEDDY-XMD WhatsApp Bot",
+  "description": "Advanced WhatsApp Bot with 200+ features for group management and automation",
+  "repository": "https://github.com/Teddytech1/TEDDY-XMD",
+  "logo": "",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "whatsapp-bot",
+    "baileys",
+    "nodejs",
+    "javascript",
+    "automation",
+    "group-management",
+    "teddy",
+    "xmd"
+  ],
+  "website": "https://github.com/Teddytech1/TEDDY-XMD",
+  "success_url": "/",
+  "env": {
+    "PREFIX": {
+      "description": "SET YOUR PREFIX .,;",
+      "value": ".",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Mega.nz session file ID (Format: Teddy-xmd:~YOUR_FILE_ID)",
+      "value": "",
+      "required": false
+    },
+    "BOT_OWNER": {
+      "description": "Bot owner name",
+      "value": "TEDDY",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp number (without +)",
+      "required": true
+    },
+    "COMMAND_MODE": {
+      "description": "Command mode (public or private)",
+      "value": "private",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-redis:hobby-dev",
+      "as": "REDIS"
+    }
+  ],
+  "stack": "heroku-22"
+}
