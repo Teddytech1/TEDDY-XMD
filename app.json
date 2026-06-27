@@ -19,12 +19,12 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "SET YOUR PREFIX .,;",
+      "description": "Command prefix",
       "value": ".",
       "required": false
     },
     "SESSION_ID": {
-      "description": "Mega.nz session file ID (Format: Teddy-xmd:~YOUR_FILE_ID)",
+      "description": "Session ID (e.g. Teddy-xmd:~YOUR_FILE_ID)",
       "value": "",
       "required": false
     },
@@ -34,19 +34,23 @@
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Owner WhatsApp number (without +)",
+      "description": "Owner WhatsApp number (without + or spaces)",
       "required": true
     },
     "COMMAND_MODE": {
-      "description": "Command mode (public or private)",
+      "description": "Bot mode: public or private",
       "value": "private",
       "required": true
+    },
+    "PORT": {
+      "description": "Port assigned by Heroku",
+      "value": "3000",
+      "required": false
     }
   },
   "formation": {
     "web": {
-      "quantity": 1,
-      "size": "free"
+      "quantity": 1
     }
   },
   "buildpacks": [
@@ -59,9 +63,16 @@
   ],
   "addons": [
     {
-      "plan": "heroku-redis:hobby-dev",
+      "plan": "heroku-redis:mini",
       "as": "REDIS"
     }
   ],
-  "stack": "heroku-22"
+  "stack": "heroku-22",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "npm test"
+      }
+    }
+  }
 }
